@@ -1,0 +1,153 @@
+/* Enter your custom styles here */
+.sapUiUfdShellSearch {
+    display: inline-block;
+    position: relative;
+    width: 95%;
+    max-width: 415px;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 39.6px;
+    padding-left: 12%;
+    padding-right: 4px;
+    font-weight: bold;
+    color: #007cc0;
+}
+
+.sapUiUfdShellHeadUsrItmImg {
+    font-weight: normal;
+    text-align: center;
+    font-size: 22px;
+    -moz-border-top-left-radius: 2px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -moz-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-left: 13px;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #007cc0;
+}
+
+/*leave request css*/
+#__xmlview1--tiltle {
+    font-size: large;
+    font-weight: bold;
+}
+#__xmlview1--__label6 {
+    font-weight: bold;
+}
+#__xmlview1--__label7 {
+    font-weight: bold;
+}
+#__xmlview1--__label8 {
+    font-weight: bold;
+}
+#__xmlview1--__label9 {
+    font-weight: bold;
+}
+#__xmlview1--__label10 {
+    font-weight: bold;
+}
+.sapMFlexItem {
+    margin-top: 25px;
+    position: relative;
+}
+
+.sapMText {
+    font-size: .86rem;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: normal;
+}
+.applyLeaveVbox{
+	margin-left: 40%;
+	margin-top: 30px
+}
+.totaldaysApplyLeave{
+	width: 115%;
+}
+.leaveTypeApplyLeave{
+width: 124%;	
+}
+.approverName{
+width: 115%;	
+}
+.leaveReason{
+height:20%;	
+}
+.displayLeaveVbox{
+margin-left: 40%;	
+}
+.Editleavetype{
+	margin-top: -7%;
+	margin-left: 11%;
+}
+.EditStartDate{
+		margin-top: -7%;
+		margin-left: 11%;
+}
+.EditEndDate{
+		margin-top: -7%;
+		margin-left: 12%;
+}
+.edittotalDays{
+		margin-top: -7%;
+		margin-left: 11%;
+}
+.EditleaveReason{
+		margin-top: -7%;
+		margin-left: 2%;
+}
+.uploaderEdit{
+		margin-top: -7%;
+		margin-left: 7%;
+}
+/*for new Apply leave*/   
+.HboxLeaveType{
+	margin-left: 40%;
+margin-bottom: 25px;
+}
+.vboxCalender{
+	margin-left: 80px;
+}
+.leavetypeselect{
+	margin-top: -5%;
+	width: 115%;
+	margin-left: 10%;
+}
+.specifyReasonLeave{
+	margin-top: -3%;
+}
+/*for new Apply leave*/
+.sapMLIB.sapMLIBSelected {
+    background: #009de0;
+    /*background: steelblue;*/
+    color: white;
+}
+
+.sapMListTbl  ,.sapMListTbl .sapMLabel {
+    padding-top: 1px;
+    font-size: 0.875rem;
+    color: #333333;
+    font-weight: bold;
+}
+
+#__xmlview3--__button1{
+	margin-left :80%;
+}
+#__xmlview4--__button1{
+	margin-left :80%;
+}
+#__xmlview5--__button1{
+	margin-left :80%;
+}
+#__xmlview6--__button1{
+	margin-left :80%;
+}
+#__xmlview7--__button1{
+	margin-left :80%;
+}
