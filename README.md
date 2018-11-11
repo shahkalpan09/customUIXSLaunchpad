@@ -1,6 +1,8 @@
 # customUIXSLaunchpad
 SAP HANA XS Custom (Fiori Like) Launchpad
 
+(Work if you deploy this on HANA XS)
+
 Problems:<br/>
 <ul>
 <li>Having HANA XS Engine. ( As Fiori Launchpad plugin not available need for custom Launchpad type app required)</li>
