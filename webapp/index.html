@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>LaunchPad</title>
+		<script id="sap-ui-bootstrap"
+			src="https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-libs="sap.m, sap.ui.unified, sap.ui.core"
+			data-sap-ui-resourceroots='{
+				"sap.ui.demo": "./"
+			}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+			sap.ui.getCore().attachInit(function() {
+			    var homeComponent = new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "sap.ui.demo"
+					});
+				new sap.m.Shell({
+					app: homeComponent 
+				}).placeAt("content");
+			});
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>
