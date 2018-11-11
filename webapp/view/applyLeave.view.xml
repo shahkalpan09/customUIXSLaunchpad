@@ -1,0 +1,94 @@
+<mvc:View
+	xmlns:core="sap.ui.core"
+	xmlns:u="sap.ui.unified"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:html="http://www.w3.org/1999/xhtml" controllerName="sap.ui.demo.view.applyLeave">
+	<App>
+		<pages>
+			<Page id="applyLeave" title="Apply Leave" showNavButton="true" navButtonPress="onNavButton">
+				<content>
+					<HBox
+						xmlns:core="sap.ui.core"
+						xmlns:u="sap.ui.unified"
+						xmlns:mvc="sap.ui.core.mvc"
+						xmlns="sap.m"
+						xmlns:html="http://www.w3.org/1999/xhtml" class="HboxLeaveType" width="100%" id="__hbox0" alignItems="Start">
+						<items>
+							<Label text="Leave type: " width="100%" id="__label0"/>
+							<Select class="leavetypeselect" id="leaveType">
+								<items>
+									<core:ListItem text="Sick Leave" key="item1" id="__item0"/>
+									<core:ListItem text="Earn Leave" key="item2" id="__item1"/>
+									<core:ListItem text="Flexi Leave" key="item3" id="__item2"/>
+									<core:ListItem text="Casual Leave" key="item4" id="__item3"/>
+								</items>
+							</Select>
+						</items>
+					</HBox>
+					<FlexBox width="100%" id="__box0" alignItems="Start">
+						<items>
+							<u:Calendar
+								xmlns:u="sap.ui.unified"
+								xmlns:core="sap.ui.core"
+								xmlns:mvc="sap.ui.core.mvc"
+								xmlns="sap.m"
+								xmlns:html="http://www.w3.org/1999/xhtml" id="calendar" months="2" select="handleCalendarSelect" intervalSelection="true"  singleSelection="true"/>
+								<VBox class="vboxCalender" width="25%" direction="Column" id="__vbox0" alignItems="Start">
+									<items>
+										<HBox class="hboxstartDate" width="100%" id="__hbox1" alignItems="Start">
+											<items>
+												<Label text="Start Date:" width="100%" id="__label1"/>
+												<Text text="No Date Selected" maxLines="0" id="startDatePick"/>
+											</items>
+										</HBox>
+										<HBox
+											xmlns="sap.m"
+											xmlns:core="sap.ui.core"
+											xmlns:u="sap.ui.unified"
+											xmlns:mvc="sap.ui.core.mvc"
+											xmlns:html="http://www.w3.org/1999/xhtml" class="hboxendDate" width="100%" id="__hbox1_copy" alignItems="Start">
+											<items>
+												<Label text="End Date: " width="100%" id="__label1_copy"/>
+												<Text text="No Date Selected" maxLines="0" id="EndDatePick"/>
+											</items>
+										</HBox>
+										<HBox
+											xmlns="sap.m"
+											xmlns:core="sap.ui.core"
+											xmlns:u="sap.ui.unified"
+											xmlns:mvc="sap.ui.core.mvc"
+											xmlns:html="http://www.w3.org/1999/xhtml" class="hboxendDate" width="100%" id="__hbox1_copy3" alignItems="Start">
+											<items>
+												<Label text="Total Days: " width="100%" id="__label1_copy3"/>
+												<Text text="0" maxLines="0" id="totaldays"/>
+											</items>
+										</HBox>
+										<HBox
+											xmlns="sap.m"
+											xmlns:core="sap.ui.core"
+											xmlns:u="sap.ui.unified"
+											xmlns:mvc="sap.ui.core.mvc"
+											xmlns:html="http://www.w3.org/1999/xhtml" class="hboxendDate" width="100%" id="__hbox1_copy2" alignItems="Start">
+											<items>
+												<Label text="Specify Reason: " width="100%" id="__label1_copy2"/>
+												<Input class="specifyReasonLeave" width="180%" id="leaveReason"/>
+											</items>
+										</HBox>
+									</items>
+								</VBox>
+							</items>
+						</FlexBox>
+					</content>
+					<footer>
+						<Bar id="__bar0">
+							<contentRight>
+								<Button text="Submit" width="100px" id="__button1" type="Accept" press="onPressSubmit"/>
+								<Button text="Cancel" width="100px" id="__button2" press="onPressCancel"/>
+							</contentRight>
+						</Bar>
+					</footer>
+				</Page>
+			</pages>
+		</App>
+	</mvc:View>

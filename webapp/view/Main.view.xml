@@ -1,0 +1,23 @@
+<mvc:View controllerName="sap.ui.demo.view.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout"
+	xmlns:u="sap.ui.unified" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<u:Shell
+			id="idAppControl"
+			icon="{/logo}" showCurtain="true">
+			<u:headItems>
+				<u:ShellHeadItem id="homeIcon" tooltip="Home" icon="sap-icon://home" press="handlePressConfiguration"/>
+			</u:headItems>
+			<u:headEndItems>
+				<u:ShellHeadItem icon="sap-icon://task" tooltip="Notification" press="Notify"/>
+				<u:ShellHeadItem icon="sap-icon://log" tooltip="Logoff" press="logout"/>
+			</u:headEndItems>
+			<u:user>
+				<u:ShellHeadUserItem
+					image="sap-icon://person-placeholder"
+					username="{/username}"
+				 />
+			</u:user>
+			<u:search>
+				<Text text="Custom Launchpad" textAlign="Center"/>
+			</u:search>
+		</u:Shell>
+</mvc:View>

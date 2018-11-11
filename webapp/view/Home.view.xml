@@ -1,0 +1,15 @@
+<mvc:View
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:html="http://www.w3.org/1999/xhtml" controllerName="sap.ui.demo.view.Home" height="100%">
+	<Page showHeader="false" showFooter="false">
+		<content>
+			<TileContainer allowAdd="true" id="__container0" tiles ="{/}">
+				<tiles>
+					<StandardTile title="{TILE_NAME}" info="" icon="{ICON}" activeIcon="{ICON}" number="{NUMBER}" numberUnit="" press="onPressPD" infoState="Success" id="__tile0"/>
+				</tiles>
+			</TileContainer>
+		</content>
+	</Page>
+</mvc:View>

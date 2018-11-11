@@ -1,0 +1,16 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core" displayBlock="true">
+	<Popover class="sapUiContentPadding" placement="Bottom" enableScrolling="true"
+	verticalScrolling="true"
+	horizontalScrolling="true"
+	title="Notification">
+		<content>
+			<List noDataText="Drop list items here" id="__lista0" items = "{/}">
+				<items>
+					<StandardListItem type="Navigation" counter="0" title="{req_id}" description="{desc}" icon="sap-icon://request" id="__itema0"/>
+				</items>
+			</List>
+		</content>
+	</Popover>
+</core:FragmentDefinition>
